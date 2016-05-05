@@ -1,26 +1,25 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown:         kramdown
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+relative_permalinks: false
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /
+title:            Template Curriculum
+tagline:          'Building Curricula with Distributed Tech'
+description:      'A template for creating Curricula that you can host on any jekyll server (ie. Github Pages)'
+url:              http://flyingzumwalt.github.io/jekyll-curriculum-template/
+baseurl:          /jekyll-curriculum-template
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
-
-paginate:         5
+  name:           'Matt Zumwalt'
+  url:            https://twitter.com/flyingzumwalt
 
 # Custom vars
-version:          2.1.0
+version:          0.0.1
+gems:             [jekyll-paginate, jekyll-gist]
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/flyingzumwalt/jekyll-curriculum-template
